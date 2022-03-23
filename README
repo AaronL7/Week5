@@ -92,6 +92,9 @@ pug-cli
 安裝 
 npm install pug-cli -g
 
+#watchout
+pug -w ./ -o ./html -P
+
 Options
 -h, --help             output usage information
 -V, --version          output the version number
