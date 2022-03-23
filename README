@@ -81,8 +81,28 @@ PUG to HTML
 pug 為 html 模板語言，可支援撰寫 JS 邏輯。
 https://codebeautify.org/pug-to-html-converter
 
-PUG安裝
-$ npm install pug
-
 PUG入門文件
 https://pugjs.org/api/getting-started.html
+
+
+pug-cli
+==================================================
+安裝 
+npm install pug-cli -g
+
+Options
+-h, --help             output usage information
+-V, --version          output the version number
+-O, --obj <str|path>   JSON/JavaScript options object or file
+-o, --out <dir>        output the rendered HTML or compiled JavaScript to <dir>
+-p, --path <path>      filename used to resolve includes
+-P, --pretty           compile pretty HTML output
+-c, --client           compile function for client-side runtime.js
+-n, --name <str>       the name of the compiled template (requires --client)
+-D, --no-debug         compile without debugging (smaller functions)
+-w, --watch            watch files for changes and automatically re-render
+-E, --extension <ext>  specify the output file extension
+-s, --silent           do not output logs
+--name-after-file      name the template after the last section of the file path (requires --client and overriden by --name)
+--doctype <str>        specify the doctype on the command line (useful if it is not specified by the template)
+
