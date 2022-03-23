@@ -4,6 +4,8 @@ Express 應用程式產生器
 $ npm install express-generator -g
 
 
+
+
 使用 -h 選項來顯示指令選項：
 ==================================================
 $ express -h
@@ -23,6 +25,8 @@ $ express -h
     -c, --css &lt;engine&gt;  add stylesheet &lt;engine&gt; support (less|stylus|compass|sass) (defaults to plain css)
         --git           add .gitignore
     -f, --force         force on non-empty directory
+
+
 
 
 Administrator的權限
@@ -67,6 +71,8 @@ Removes the currently assigned execution policy from the current scope. This par
     └── layout.pug
 
 7 directories, 9 files
+
+
 
 
 PUG to HTML
