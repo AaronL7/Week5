@@ -77,4 +77,5 @@ Removes the currently assigned execution policy from the current scope. This par
 
 PUG to HTML
 ==================================================
+pug 為 html 模板語言，可支援撰寫 JS 邏輯
 https://codebeautify.org/pug-to-html-converter
