@@ -1,0 +1,26 @@
+doctype html
+html
+    head
+        title Hello pug
+    body
+    -var users=['kelly','amy','luc']
+    -var author="Aaron"
+    -var score = 85
+    h1 Hello #{author}
+    - for (var x = 0; x < 3; x++)
+        li item #{x}
+    case score
+        when 90
+            p exllent score
+        default
+         p your score #{score}
+    if score >=90
+        h3 you have nice score
+    else
+        h4 your score is terrible
+    ul
+        each user in users
+            li= user
+    ul
+        each item in [{ id: 15, name:'eri'},{ id: 15, name:'eri'}]
+            li #{item.id }: #{item.name}
