@@ -8,6 +8,33 @@ express --view=pug myapp
 
 
 
+
+& npm start
+==================================================
+瀏覽器中載入 http://localhost:3000/，以存取應用程式。產生的應用程式具有如下的目錄結構：
+.
+├── app.js
+├── bin
+│   └── www
+├── package.json
+├── public
+│   ├── images
+│   ├── javascripts
+│   └── stylesheets
+│       └── style.css
+├── routes
+│   ├── index.js
+│   └── users.js
+└── views
+    ├── error.pug
+    ├── index.pug
+    └── layout.pug
+
+7 directories, 9 files
+
+
+
+
 使用 -h 選項來顯示指令選項：
 ==================================================
 $ express -h
@@ -47,32 +74,6 @@ Bypass：
 Nothing is blocked and there are no warnings or prompts.
 Undefined：
 Removes the currently assigned execution policy from the current scope. This parameter will not remove an execution policy that is set in a Group Policy scope.
-
-
-
-
-& npm start
-==================================================
-瀏覽器中載入 http://localhost:3000/，以存取應用程式。產生的應用程式具有如下的目錄結構：
-.
-├── app.js
-├── bin
-│   └── www
-├── package.json
-├── public
-│   ├── images
-│   ├── javascripts
-│   └── stylesheets
-│       └── style.css
-├── routes
-│   ├── index.js
-│   └── users.js
-└── views
-    ├── error.pug
-    ├── index.pug
-    └── layout.pug
-
-7 directories, 9 files
 
 
 
