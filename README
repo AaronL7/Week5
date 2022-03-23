@@ -3,6 +3,8 @@ Express 應用程式產生器
 使用下列指令來安裝 express：
 $ npm install express-generator -g
 
+舉例來說，以下是在現行工作目錄中建立一個名為 "myapp" 的 Express 應用程式：
+express --view=pug myapp
 
 
 
