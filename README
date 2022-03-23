@@ -1,8 +1,10 @@
 Express 應用程式產生器
 
+
 使用下列指令來安裝 express：
 $ npm install express-generator -g
 
+==========
 使用 -h 選項來顯示指令選項：
 $ express -h
 
